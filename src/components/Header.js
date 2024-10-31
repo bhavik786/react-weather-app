@@ -27,6 +27,11 @@ const Header = ({ city, onInputChange, onSearch }) => (
         onChange={onInputChange}
         value={city}
         className="p-2 border border-gray-300 rounded-lg focus:outline-none w-full pr-10"
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            onSearch();
+          }
+        }}
       />
       <button
         className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-transparent border-none cursor-pointer"
