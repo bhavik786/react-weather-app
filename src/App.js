@@ -67,8 +67,12 @@ function App() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-description" xl={{ mt: 2 }}>
-            Hello team, my name is Bhavik Gevariya, and I developed this weather
+          <Typography
+            id="modal-modal-description"
+            className="text-justify"
+            xl={{ mt: 2 }}
+          >
+            Hello Team, my name is Bhavik Gevariya, and I developed this weather
             app as part of the interview process, following the specifications
             outlined in the provided documentation. The app offers real-time
             weather information for cities worldwide. I utilized Material-UI
