@@ -4,10 +4,16 @@ A sleek, responsive weather application built with **React.js** and **Tailwind C
 
 ---
 
+## 🔗 Live Demo
+
+🌐 [Check out the live demo](https://demo-weather-app-react.netlify.app)
+
+
+---
+
 ## 🚀 Features
 
 - 🔍 **City Search**: Retrieve current weather data by entering any city name.
-- 📍 **Geolocation**: Automatically fetch weather information based on your current location.
 - 🌡️ **Detailed Weather Info**: Displays temperature, humidity, wind speed, and weather conditions.
 - 🎨 **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
 
